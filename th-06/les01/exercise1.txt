@@ -1,0 +1,19 @@
+1. Deyployment (Trien Khai)
+- Heroku 
+- Amazon EC
+- Google AppEngine
+- Vultr
+- ViettelIDC, Matbao, ....
+
+2. Static server
+- OS: Linux Ubuntu, CentOS
+- NGINX
+- Apache
+- IIS (Windown) -- option
+- Firebase hosting
+
+2. Dynamic Web
+- PHP: 
+  + Laravel, PHP Phalcol, CodeInigter, .....
+  + WordPress
+- MySQL, Postgres, MongoDB
