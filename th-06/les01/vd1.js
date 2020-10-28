@@ -4,7 +4,7 @@ const path = require('path');
 
 function requestListener(req, res) {
   let locationPath = req.url;
-  if(req.url =="/") locationPath = "index.html";
+  if(req.url =="/") locationPath = "index.html"; 
   else {
     let parts = req.url.split("/");
     if(parts[parts.length -1].indexOf(".") < 0) {
