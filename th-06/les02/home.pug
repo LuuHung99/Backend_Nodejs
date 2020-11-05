@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    style
+      include style.css
+  body
+    ul.menu
+      li.menu-item
+        a(href="/") TODOS
+      li.menu-item
+        a(href="/create") CREATE
+    .container
+      h1=title
+      ul.todos
+        li.row.title
+          .cell Title
+          .cell Status
+          .cell Action
+        each todo in todos
+          li.row
+            .cell=todo.title
+            .cell=todo.status
+            .cell
+              a(href=`/delete/${todo.id}`) DELETE
+      if prPage 
+        a(href="/?page=${prPage}&n=${n}") Prev
+      a(href="#")=` |${page}| `
+      if nextPage 
+        a(href="/?page=${nextPage}&n=${n}") Next
+      

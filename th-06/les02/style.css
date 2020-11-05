@@ -1,0 +1,51 @@
+.menu {
+  background: #ececec;
+}
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu-item a {
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background: #333333;
+}
+
+.menu-item:hover a {
+  color: rgb(217, 255, 192);
+  font-weight: 700;
+}
+
+h1 {
+  color: red;
+}
+h1:hover {
+  color: yellow;
+}
+
+.todos {
+  display: inline-block;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  border: 1px solid gray;
+}
+
+.title {
+  background: gray;
+  color: purple;
+  font-weight: 700;
+}
+
+.cell {
+  width: 200px;
+  border-right: 1px solid gray;
+}
